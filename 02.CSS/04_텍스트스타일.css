@@ -1,0 +1,112 @@
+/* body {
+    font-family: '돋움';
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap'); */
+
+#ff1 {
+    font-family: '궁서체';
+}
+
+#ff2 {
+    font-family: '굴림체';
+}
+
+#ff3 {
+    font-family: "없는 글꼴", '궁서체', '굴림체';
+}
+
+
+#web-font {
+    font-family: 'East Sea Dokdo',cursive;
+    font-size: 5em;
+}
+
+#fs1 {
+    font-style: italic;
+}
+
+#fs2 {
+    font-style: oblique;
+}
+
+/* color 테스트 */
+
+/* 색상명으로 지정 */
+#c_name {
+    color: chocolate;
+}
+
+#c_16 {
+    color: #000000;
+}
+
+#c_rgb {
+    color: rgba(54, 10, 112, 0.508);
+}
+
+#c_rgba {
+    color: rgba(235, 192, 51, 0.3);
+}
+
+/* test-decoration */
+#td1 {
+    text-decoration: underline;
+}
+
+#td2 {
+    text-decoration: line-through;
+}
+
+#td3 {
+    text-decoration: overline;
+}
+
+#td4 {
+    text-decoration: none;
+}
+
+/* text-transform */
+#tt1 {
+    text-transform: none;
+}
+
+#tt2 {
+    text-transform: capitalize;
+}
+
+#tt3 {
+    text-transform: uppercase;
+}
+
+#tt4 {
+    text-transform: lowercase;
+}
+
+/* text-shadow */
+#bg {
+    background-color: black;
+    padding: 50px;
+    margin: 30px;
+}
+
+.shadow {
+    font-size: 100px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+#ts1 {
+    color: orange;
+    
+    text-shadow: -10px 10px 20px white;
+}
+
+#ts2 {
+    color: white;
+    text-shadow: 0px 0px 50px #fff;
+}
+
+#ts3 {
+    color: white;
+    text-shadow: 0px 0px 20px yellowgreen;
+}
