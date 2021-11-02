@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃 스타일</title>
+    <link rel="stylesheet" href="./05_레이아웃스타일.css">
+</head>
+<body>
+    <h1>레이아웃 스타일</h1>
+
+    <h2>기본스타일</h2>
+    <h3>width, height</h3>
+    <h4>고정크기</h4>
+    <div id="fixed-size" class="size-test"></div>
+
+    <h4>가변크기</h4>
+    <div id="variable-size" class="size-test"></div>
+
+    <hr>
+
+    <h3>화면 배치 방법 변경</h3>
+    <p>
+        블록 요소와 인라인 요소의 속성을 변경하여 배치 방식을 변경할 수 있다.
+    </p>
+
+    <h4>블록 요소를 인라인 요소로 변경</h4>
+    <p>display: inline</p>
+    <div id="area1" class="display display-inline">1 번째 영역</div>
+    <div id="area2" class="display display-inline">2 번째 영역</div>
+    <div id="area3" class="display display-inline">3 번째 영역</div>
+    <div id="area4" class="display display-inline">4 번째 영역</div>
+    <div id="area5" class="display display-inline">5 번째 영역</div>
+
+    <p>display: inline-block</p>
+    <div id="area1" class="display display-inline-block">1 번째 영역</div>
+    <div id="area2" class="display display-inline-block">2 번째 영역</div>
+    <div id="area3" class="display display-inline-block">3 번째 영역</div>
+    <div id="area4" class="display display-inline-block">4 번째 영역</div>
+    <div id="area5" class="display display-inline-block">5 번째 영역</div>
+
+    <h4>인라인 요소르 블록 요소로 변경</h4>
+    <p>display: block</p>
+    <span id="area1" class="display display-block">1번째 영역</span>
+    <span id="area2" class="display display-block">2번째 영역</span>
+    <span id="area3" class="display display-block">3번째 영역</span>
+    <span id="area4" class="display display-block">4번째 영역</span>
+    <span id="area5" class="display display-block">5번째 영역</span>
+
+    <hr>
+
+    <h2>테두리 스타일</h2>
+
+    <div class="border" id="border-test1"></div> <br>
+    <div class="border" id="border-test2"></div> <br>
+    <div class="border" id="border-test3"></div> <br>
+    <div class="border" id="border-test4"></div> <br>
+    <div class="border" id="border-test5"></div> <br>
+    <div class="border" id="border-test6"></div> <br>
+    <div class="border" id="border-test7"></div> <br>
+    <div class="border" id="border-test8"></div> <br>
+    <div class="border" id="border-test9"></div> <br>
+    <div class="border" id="border-test10"></div> <br>
+
+    <hr>
+
+    <h2>여백 스타일</h2>
+
+    <div class="space">기준 div</div>
+
+    <h3>padding</h3>
+    <p>테두리와 콘텐츠 영역 사이의 거리 조절</p>
+    <div class="space" id="padding1">전체 padding</div>
+    <br>
+    <div class="space" id="padding2">부분 padding</div>
+
+    <hr>
+
+    <h3>margin</h3>
+    <p>다른 요소들 간의 간격 조절</p>
+    <div class="space" id="margin1">전체 margin</div>
+    <div class="space" id="margin2">부분 margin</div>
+
+    <hr>
+
+    <h2>포지셔닝</h2>
+    <h4>절대 위치와 상대 위치</h4>
+
+    <div class="outer">
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="third"></div>        
+    </div>
+
+    <h4>고정 위치</h4>
+    <div id="fixed-area"></div>
+
+    <hr>
+
+    <h3>visibility</h3>
+    <div class="visibility" id="v-test1"></div>
+    <div class="visibility" id="v-test2"></div>
+    <div class="visibility" id="v-test3"></div>
+
+    <hr>
+
+    <h3>z-index</h3>
+    <div id="z-outer">
+    <div id="z1" class="z-test"></div>
+    <div id="z2" class="z-test"></div>
+    <div id="z3" class="z-test"></div>
+    </div>
+
+    <hr>
+
+    <h3>float, clear</h3>
+    <div class="float-test"></div>
+    <div class="float-test"></div>
+    <div class="float-test"></div>
+
+    <hr style="clear: left;">
+
+    <h2>다단 스타일</h2>
+    <h3>단의 너비를 이용하여 단 나누기</h3>
+    <div class="column-wrap" id="column1">
+        <h4>SK텔레콤에서 분할한 ‘SK스퀘어’ 1일 출범</h4>
+        <p>
+            존속 SK텔레콤은 통신 집중 신설 SK스퀘어는 투자 전문회사로 출발
+            SK텔레콤이 1일 통신 사업을 담당할 SK텔레콤과 비통신 사업을 맡는 SK스퀘어 2개 회사로 재출범한다. SK텔레콤은 “10월12일 열린 임시주총 의결에 따라 1일 존속회사(SK텔레콤)와 신설회사(SK스퀘어)로 인적분할한다”고 31일 밝혔다. 1984년 한국이동통신으로 설립된 후 37년 만의 기업구조 개편이다.
+            
+            SK텔레콤이란 통신사 밑에 SK하이닉스, 11번가, 티맵모빌리티 등 비통신 신사업이 자회사로 들어간 비효율적 구조를 개선하고 공정거래법상 규제로 인해 투자가 제약되는 상황을 타개하기 위한 개편이다. 박정호 부회장(현 SK텔레콤 대표)은 “그간 SK텔레콤은 통신이라는 프레임 속에서 온전히 가치를 평가받지 못했다”며 “회사 분할의 가장 큰 목적은 주주가치 극대화”라고 밝혔다.
+            
+            존속회사 SK텔레콤은 유무선 통신, 인공지능(AI) 기반 서비스, 메타버스 플랫폼 등 통신 분야에 집중한다. SK브로드밴드와 SK텔링크, 피에스앤마케팅 등을 자회사로 둔다. 2020년 기준 약 15조원인 매출액을 2025년에는 약 22조원으로 늘린다는 목표를 세웠다. SK텔레콤은 1일 이사회를 열어 유영상 MNO사업대표를 새로운 최고경영자(CEO)로 선임할 것으로 알려졌다.
+            
+            신설회사 SK스퀘어는 SK하이닉스와 ADT캡스, 11번가, 티맵모빌리티, 원스토어, 콘텐츠웨이브, 드림어스컴퍼니, SK플래닛 등 16개 회사를 자회사로 둔 투자 전문회사로 출범한다. CEO는 박정호 부회장이 맡는다.
+            
+            SK스퀘어 출범으로 SK하이닉스의 반도체 투자가 기존보다 수월해질 것으로 전망된다. 그간 SK하이닉스는 공정거래법상 지주사의 손자회사가 인수·합병으로 증손회사를 두려면 지분 100%를 인수해야 한다는 규정 때문에 투자에 제약이 있었다. 하지만 투자 전문사가 된 모회사 SK스퀘어가 직접 투자에 나서면 이러한 제약에서 벗어난다. SK스퀘어는 토종 앱스토어로 주목받는 원스토어와 최근 사명을 ‘SK쉴더스’로 바꾼 ADT캡스 등 신사업 자회사를 상장하는 작업에도 집중할 것으로 예상된다.
+            
+            현재 SK텔레콤 주식은 인적분할 절차에 따라 거래 정지 중이다. 오는 11월29일 각각 변경상장(SK텔레콤), 재상장(SK스퀘어)된다.
+        </p>
+    </div>
+
+    <h3>단의 개수를 이용하여 단 나누기</h3>
+    <div class="column-wrap" id="column2">
+        <h4>SK텔레콤에서 분할한 ‘SK스퀘어’ 1일 출범</h4>
+        <p>
+            존속 SK텔레콤은 통신 집중 신설 SK스퀘어는 투자 전문회사로 출발
+            SK텔레콤이 1일 통신 사업을 담당할 SK텔레콤과 비통신 사업을 맡는 SK스퀘어 2개 회사로 재출범한다. SK텔레콤은 “10월12일 열린 임시주총 의결에 따라 1일 존속회사(SK텔레콤)와 신설회사(SK스퀘어)로 인적분할한다”고 31일 밝혔다. 1984년 한국이동통신으로 설립된 후 37년 만의 기업구조 개편이다.
+            
+            SK텔레콤이란 통신사 밑에 SK하이닉스, 11번가, 티맵모빌리티 등 비통신 신사업이 자회사로 들어간 비효율적 구조를 개선하고 공정거래법상 규제로 인해 투자가 제약되는 상황을 타개하기 위한 개편이다. 박정호 부회장(현 SK텔레콤 대표)은 “그간 SK텔레콤은 통신이라는 프레임 속에서 온전히 가치를 평가받지 못했다”며 “회사 분할의 가장 큰 목적은 주주가치 극대화”라고 밝혔다.
+            
+            존속회사 SK텔레콤은 유무선 통신, 인공지능(AI) 기반 서비스, 메타버스 플랫폼 등 통신 분야에 집중한다. SK브로드밴드와 SK텔링크, 피에스앤마케팅 등을 자회사로 둔다. 2020년 기준 약 15조원인 매출액을 2025년에는 약 22조원으로 늘린다는 목표를 세웠다. SK텔레콤은 1일 이사회를 열어 유영상 MNO사업대표를 새로운 최고경영자(CEO)로 선임할 것으로 알려졌다.
+            
+            신설회사 SK스퀘어는 SK하이닉스와 ADT캡스, 11번가, 티맵모빌리티, 원스토어, 콘텐츠웨이브, 드림어스컴퍼니, SK플래닛 등 16개 회사를 자회사로 둔 투자 전문회사로 출범한다. CEO는 박정호 부회장이 맡는다.
+            
+            SK스퀘어 출범으로 SK하이닉스의 반도체 투자가 기존보다 수월해질 것으로 전망된다. 그간 SK하이닉스는 공정거래법상 지주사의 손자회사가 인수·합병으로 증손회사를 두려면 지분 100%를 인수해야 한다는 규정 때문에 투자에 제약이 있었다. 하지만 투자 전문사가 된 모회사 SK스퀘어가 직접 투자에 나서면 이러한 제약에서 벗어난다. SK스퀘어는 토종 앱스토어로 주목받는 원스토어와 최근 사명을 ‘SK쉴더스’로 바꾼 ADT캡스 등 신사업 자회사를 상장하는 작업에도 집중할 것으로 예상된다.
+            
+            현재 SK텔레콤 주식은 인적분할 절차에 따라 거래 정지 중이다. 오는 11월29일 각각 변경상장(SK텔레콤), 재상장(SK스퀘어)된다.
+        </p>
+    </div>
+
+    <hr>
+
+    <h2>표 스타일</h2>
+
+    <table>
+        <caption>성적표</caption>
+        <tr>
+            <td>구분</td>
+            <td>점수</td>
+        </tr>
+        <tr>
+            <td>수학</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>국어</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>100sadfsdafsadfsdafsadfsadfsdafasdfsdafsdafsdfasdfasdfdfassdaf</td>
+        </tr>
+    </table>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    
+
+
+</body>
+</html>

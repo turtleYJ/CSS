@@ -1,0 +1,38 @@
+*:not(h1, body) {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+div {
+    width: 1000px;
+    height: 800px;
+}
+
+header {
+    height: 20%;
+}
+
+section>article {
+    height: 100%;
+    float: left;
+}
+
+#content1 {
+    width: 20%;
+}
+
+#content2 {
+    width: 60%;
+}
+
+#content3 {
+    width: 20%;
+}
+
+section {
+    height: 60%;
+}
+
+footer {
+    height: 20%;
+}

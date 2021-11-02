@@ -110,3 +110,59 @@
     color: white;
     text-shadow: 0px 0px 20px yellowgreen;
 }
+
+#ts4 {    
+    text-shadow: 0px 0px 4px #ccc,
+                 0px -5px 4px #ff3,
+                 2px -10px 6px #fd3,
+                 -2px -15px 11px #f80,
+                 2px -19px 18px #f20;
+}
+
+/* letter spacing */
+#spacing1 {
+    letter-spacing: 5px;
+}
+
+#spacing2 {
+    word-spacing: 10px;
+}
+
+/* text-align */
+#ta1 {
+    text-align: left;
+}
+
+#ta2 {
+    text-align: right;
+}
+
+#ta3 {
+    text-align: center;
+}
+
+#ta4 {
+    text-align: justify;
+}
+
+/* text-indent */
+#ti {
+    text-indent: 15px;
+}
+
+/* line-height */
+#lh {
+    line-height: 30px;
+}
+
+/* text-overflow */
+.over-class {
+    background-color: lavender;
+    width: 500px;
+}
+
+#to {
+    /* overflow: hidden; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

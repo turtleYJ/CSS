@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>색상 스타일</title>
+    <style>
+        body {
+            /* background-color: lime; */
+            /* background-color: #A1B809; */
+            /* background-color: rgb(200, 90, 90); */
+            /* background-color: rgba(255, 80, 80, .3); */
+            /* background-color: hsl(60, 100%, 50%); */
+            background-color: hsla(60, 100%, 50%, 0.3);
+        }
+
+        #div-bg {
+            background-color: white;
+            width: 50%;
+        }
+
+        .div-clip {
+            background-color: white;
+            margin: 30px;
+            padding: 30px;
+            width: 40%;
+            border: 15px dashed rgba(0, 0, 0, 0.2);
+        }
+        
+        #div-clip1 {            
+            background-clip: border-box;
+        }
+
+        #div-clip2 {    
+            background-clip: padding-box;
+        }
+
+        #div-clip3 {    
+            background-clip: content-box;
+        }
+
+        #div-bg-img{
+            border: 15px solid rgba(0, 0, 0, 0.2);
+            width: 70%;
+            height: 800px;
+            padding: 50px;
+            background-image: url("../resources/image/bgsample.PNG");
+
+            /* 이미지 반복 설정 */
+            /* background-repeat: repeat; */
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+            background-repeat: no-repeat;
+
+            /* 이미지 크기 설정 */
+            /* background-size: auto; */
+            /* background-size: contain; */
+            /* background-size: cover; */
+            background-size: 300px 200px;
+            /* background-size: 100% 100%; */
+
+            /* 이미지의 위치 설정 */
+            /* background-position: left top; */
+            /* background-position: left; */
+            /* background-position: left bottom; */
+            /* background-position: right top; */
+            /* background-position: right; */
+            /* background-position: right bottom; */
+            /* background-position: center top; */
+            /* background-position: center; */
+            /* background-position: center bottom; */
+            /* background-position: 200px 100px; */
+            /* background-position: 10% 10%; */
+
+            /* 이미지의 배치 기준 설정 */
+            /* background-origin: padding-box; */
+            /* background-origin: border-box; */
+            /* background-origin: content-box; */
+
+            /* 이미지를 고정하도록 설정 */
+            /* background-attachment: scroll; */
+            /* background-attachment: fixed; */
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>색상 스타일</h1>
+
+    <hr>
+
+    <h2>background-color</h2>
+    <div id="div-bg">
+        존속 SK텔레콤은 통신 집중 신설 SK스퀘어는 투자 전문회사로 출발
+        SK텔레콤이 1일 통신 사업을 담당할 SK텔레콤과 비통신 사업을 맡는 SK스퀘어 2개 회사로 재출범한다. SK텔레콤은 “10월12일 열린 임시주총 의결에 따라 1일 존속회사(SK텔레콤)와 신설회사(SK스퀘어)로 인적분할한다”고 31일 밝혔다. 1984년 한국이동통신으로 설립된 후 37년 만의 기업구조 개편이다.
+        
+        SK텔레콤이란 통신사 밑에 SK하이닉스, 11번가, 티맵모빌리티 등 비통신 신사업이 자회사로 들어간 비효율적 구조를 개선하고 공정거래법상 규제로 인해 투자가 제약되는 상황을 타개하기 위한 개편이다. 박정호 부회장(현 SK텔레콤 대표)은 “그간 SK텔레콤은 통신이라는 프레임 속에서 온전히 가치를 평가받지 못했다”며 “회사 분할의 가장 큰 목적은 주주가치 극대화”라고 밝혔다.
+        
+    </div>
+
+    <hr>
+
+    <h2>background-clip</h2>
+    <div class="div-clip" id="div-clip1">
+        존속 SK텔레콤은 통신 집중 신설 SK스퀘어는 투자 전문회사로 출발
+        SK텔레콤이 1일 통신 사업을 담당할 SK텔레콤과 비통신 사업을 맡는 SK스퀘어 2개 회사로 재출범한다. SK텔레콤은 “10월12일 열린 임시주총 의결에 따라 1일 존속회사(SK텔레콤)와 신설회사(SK스퀘어)로 인적분할한다”고 31일 밝혔다. 1984년 한국이동통신으로 설립된 후 37년 만의 기업구조 개편이다.
+        
+        SK텔레콤이란 통신사 밑에 SK하이닉스, 11번가, 티맵모빌리티 등 비통신 신사업이 자회사로 들어간 비효율적 구조를 개선하고 공정거래법상 규제로 인해 투자가 제약되는 상황을 타개하기 위한 개편이다. 박정호 부회장(현 SK텔레콤 대표)은 “그간 SK텔레콤은 통신이라는 프레임 속에서 온전히 가치를 평가받지 못했다”며 “회사 분할의 가장 큰 목적은 주주가치 극대화”라고 밝혔다.
+        
+    </div>
+
+    <div class="div-clip" id="div-clip2">
+        존속 SK텔레콤은 통신 집중 신설 SK스퀘어는 투자 전문회사로 출발
+        SK텔레콤이 1일 통신 사업을 담당할 SK텔레콤과 비통신 사업을 맡는 SK스퀘어 2개 회사로 재출범한다. SK텔레콤은 “10월12일 열린 임시주총 의결에 따라 1일 존속회사(SK텔레콤)와 신설회사(SK스퀘어)로 인적분할한다”고 31일 밝혔다. 1984년 한국이동통신으로 설립된 후 37년 만의 기업구조 개편이다.
+        
+        SK텔레콤이란 통신사 밑에 SK하이닉스, 11번가, 티맵모빌리티 등 비통신 신사업이 자회사로 들어간 비효율적 구조를 개선하고 공정거래법상 규제로 인해 투자가 제약되는 상황을 타개하기 위한 개편이다. 박정호 부회장(현 SK텔레콤 대표)은 “그간 SK텔레콤은 통신이라는 프레임 속에서 온전히 가치를 평가받지 못했다”며 “회사 분할의 가장 큰 목적은 주주가치 극대화”라고 밝혔다.
+        
+    </div>
+
+    <div class="div-clip" id="div-clip3">
+        존속 SK텔레콤은 통신 집중 신설 SK스퀘어는 투자 전문회사로 출발
+        SK텔레콤이 1일 통신 사업을 담당할 SK텔레콤과 비통신 사업을 맡는 SK스퀘어 2개 회사로 재출범한다. SK텔레콤은 “10월12일 열린 임시주총 의결에 따라 1일 존속회사(SK텔레콤)와 신설회사(SK스퀘어)로 인적분할한다”고 31일 밝혔다. 1984년 한국이동통신으로 설립된 후 37년 만의 기업구조 개편이다.
+        
+        SK텔레콤이란 통신사 밑에 SK하이닉스, 11번가, 티맵모빌리티 등 비통신 신사업이 자회사로 들어간 비효율적 구조를 개선하고 공정거래법상 규제로 인해 투자가 제약되는 상황을 타개하기 위한 개편이다. 박정호 부회장(현 SK텔레콤 대표)은 “그간 SK텔레콤은 통신이라는 프레임 속에서 온전히 가치를 평가받지 못했다”며 “회사 분할의 가장 큰 목적은 주주가치 극대화”라고 밝혔다.
+        
+    </div>
+
+    <hr>
+
+    <h2>
+        backgroud-image,
+        backgroud-repeat,
+        background-size,
+        background-origin,
+        background-attachment
+    </h2>
+
+    <div id="div-bg-img"></div>
+
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    
+
+    
+
+</body>
+</html>
