@@ -1,0 +1,32 @@
+.title>td>input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content>td>textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sumit>td {
+    text-align: center;
+}
+
+.sumit>td>input {
+    margin: 10px;
+}
+
+#table2 th {
+    background-color: sandybrown;
+    color: white;
+}
+
+#table2 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#table2 td {
+    background-color: beige;
+}
+
